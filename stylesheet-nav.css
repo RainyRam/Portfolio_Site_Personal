@@ -39,7 +39,7 @@ nav {
  /* margin-right: 100px;*/
   padding-top: 100px;
   width: 18%;
-  background-color: midnightblue;
+  background-color: darkgreen;
 	top: 0;
 	left: 0;
   opacity: 0.8;
@@ -47,4 +47,3 @@ nav {
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
-
