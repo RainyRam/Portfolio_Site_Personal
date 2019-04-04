@@ -1,0 +1,238 @@
+/*stylesheet.css */
+
+body {
+	linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+	/*background: white;*/
+	width: 100%;
+	height: 100%;
+	top:0;
+}
+
+
+
+
+h1{
+	font-size: 50px;
+	font-family: 'Gotham';
+	text-align: center;
+	color:blue;
+	background-color: midnightblue;
+}
+
+/* Page content */
+.content {
+  padding: 8px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+h2 {
+	font-size: 32px;
+	font-family: 'Gotham', cursive;
+	text-align: center;
+	color: #b0d364;
+}
+h3 {
+	font-family: 'Gotham', cursive;
+	
+}
+h4 {
+	font-family: Gotham;
+	font-weight: bold;
+}
+p {
+	font-family: Gotham;	
+	}
+
+img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	
+}
+.thick-green-border {
+	border-color: darkblue;
+    border-width: 10px;
+    border-style: solid;
+	border-radius: 50%;
+	
+
+}
+
+body{
+	float: right;
+	width: 81%;
+	right: 0;
+}
+
+
+li a {
+  display: block;
+ color:  #b2dda5 ;
+  padding: 8px 16px;
+  text-decoration: none;
+	font-family: Gotham;
+
+}
+
+
+li a:hover {
+  background-color:#2D66FF;
+  color: white;
+}
+
+nav {
+  list-style-type: none;
+ /* margin-right: 100px;*/
+  padding-top: 100px;
+  width: 18%;
+	opacity: 0.8;
+  background-color: #829BFF;
+	top: 0;
+	left: 0;
+ 
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.post-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 35px;
+height: 0;
+overflow: hidden;
+}
+
+
+
+
+.menuGrid {
+	display: grid;
+/*	grid-template-columns: 2fr 1fr;*/
+	width: 90%;
+	border-top:thick #c0c0c0;
+	border-bottom: thick #c0c0c0;
+	/*margin-left:25%;*/
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding:1px 16px;
+	height:10px;
+}
+#menuLeft {
+	text-align: center;
+}
+#menuRight {
+	text-align: center;
+}
+.container {
+	width: 100%;
+	display: grid;
+	align-items: center;
+	margin-left:25%;
+	padding:1px 16px;
+	height:1000px;
+}
+/*.bioGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	grid-gap: 20px;
+}
+.bioBox {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.23);
+	border-radius: 20px;
+	padding: 20px;
+}
+#bTitle {
+	text-align: center;
+	background: #DFFFC9;
+	line-height: 55px;
+	border-bottom: #333300 double;
+	border-top: #333300 double;
+	border-radius: 20px;
+	color: black;
+}*/
+#jTitle {
+	text-align: center;
+	background: linear-gradient(#000099, #66c2ff, #ffffff);
+	line-height: 55px;
+	border-bottom: #333300;
+	border-top: #333300;
+	color: black;
+}
+#jText {
+	text-align: center;
+	background: linear-gradient(#66c2ff, #ffffff);
+	line-height: 55px;
+	padding: 10px;
+	border-radius: 15px 15px 15px 15px;
+	width: auto;
+  	height: auto; 
+	color: black;
+}
+.bioColumns {
+	display: grid;
+/*	grid-template-columns: 1fr 1fr;*/
+}
+.bioPic {
+	display:block;
+	width: 50em;
+	height:auto;
+	border:thin #000000;
+	border-radius: 100%;
+}
+.resourceBox {
+	text-align: center;
+	padding: 30px;
+}
+.imageResize {
+	max-width:100%;
+	height: auto;
+}
+
+* social media icons */
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
